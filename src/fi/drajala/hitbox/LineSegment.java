@@ -125,7 +125,7 @@ public class LineSegment implements Serializable {
 	 * Sets the position of the line segment to the given position.
 	 * @param position
 	 * */
-	public void bindToPosition(Point position) {
+	public void setPosition(Point position) {
 		this.position = position;
 		this.equation.setPosition(position);
 	}

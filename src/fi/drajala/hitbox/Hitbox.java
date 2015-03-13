@@ -73,10 +73,10 @@ public class Hitbox implements Serializable {
 	 * Sets the hitbox position to the given new position
 	 * @param position the new position
 	 * */
-	public void bindToPosition(Point position) {
+	public void setPosition(Point position) {
 		roughHitbox.position = position;
 		for(LineSegment line : lines) {
-			line.bindToPosition(position);
+			line.setPosition(position);
 		}
 	}
 	
