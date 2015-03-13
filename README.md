@@ -12,7 +12,7 @@ builder.addPoint(10.0f, 0.0f)
 		.addPoint(130.0f, 130.0f)
 		.addPoint(0.0f, 90.0f);
 
-hitbox = builder.build();
+Hitbox hitbox = builder.build();
 // Alternatively call the constructor Hitbox(List<Point> points)
 
 // Moves hitbox while maintaining the relative position of the points
